@@ -1,0 +1,85 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Channel Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Channel News</h1>
+        <h1 id="pageTitle"></h1>
+        <div id="languageSelector">
+            <label for="language">Select Language:</label>
+            <select id="language" onchange="changeLanguage()">
+                <option value="en">English</option>
+                <option value="hi">हिन्दी</option>
+                <option value="te">తెలుగు</option>
+            </select>
+            <div id="categorySelector">
+                <label for="category">Select Category:</label>
+                <select id="category" onchange="changeCategory()">
+                    <option value="all">All Categories</option>
+                    <option value="sports">Sports</option>
+                    <option value="india">India</option>
+                    <option value="business">Business</option>
+                    <option value="politics">Politics</option>
+                    <option value="technology">Technology</option>
+                    <option value="startups">Startups</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Bhakti">Bhakti</option>
+                </select>
+            </div>
+    </header>
+
+    <main>
+        <!-- Display videos here -->
+        <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IDpjhUQxXWY?si=GrBJeXvn4h2KpaEM" frameborder="0" allowfullscreen data-category="Bhakti" title="Video Title 1"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Q0QCiVell7Y?si=YsUJJ0E2j122pCkZ" frameborder="0" allowfullscreen data-category="Bhakti" title="Video Title 1"></iframe>
+         <iframe width="560" height="315" src="https://www.youtube.com/embed/6c6c-Y_EiGs?si=faY3RRrhBuybR16-" frameborder="0" allowfullscreen data-category="Entertainment"></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GugU_2mnxAM?si=pfbAbmVTU0ynRbDv" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2FJ-EIyxWeQ?si=be9CV00lU6axYF4a" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oGAkwWGXnck?si=xfWYeBDVT3k2gE0E" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0_28HwujGIQ?si=x5N4pu0ci5imE_of" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uO-QpKHi2EA?si=EQo8B5niEIHio9Oi" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FEtdFo19K64?si=heRwJmO7wrpcLaSl" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/oh1QWTWvXQk?si=1hRU5IujpGVOw2uE" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6VJ2g53_Ueg?si=JM8WRZDjKi8oqEcP" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/A0Zxc8E4v-c?si=v1RE3QWY-4hnCtSK" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5MQ9XhsFXY4?si=Oeangw1iOc7oNzLb" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R9BioNKF2Sc?si=RBdMB2cylqtJMKw6" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-Sdsp_USo1E?si=wJ1P3xiLx0Vh_O3m" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/rcU9mJE_H98?si=D2_a3aHsewysI9_O" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/m6CBt3dtWoU?si=ZtNCLdkUs_S5hiSX" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/r_RIUeYBVDY?si=X2XZGjrIRur0v7im" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HPzA40UES_4?si=IOGwY6sfEHRV5T9F" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/m6ZUkw9UEoA?si=rRUeZEX8dtniFUEG" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/onZYXvdZLho?si=9BpNO7p-X3-6eenx" frameborder="0" allowfullscreen data-category="Entertainment"></iframe> 
+
+
+
+
+
+    </div> 
+        <!-- Add more video iframes as needed -->
+        <!-- index.html (inside <form>) -->
+<!-- <form action="/upload" method="post" enctype="multipart/form-data" id="uploadForm">
+    <label for="video">Select a video:</label>
+    <input type="file" id="video" name="video" accept="video/*">
+    <br>
+    <input type="submit" value="Upload">
+</form> -->
+
+    </main>
+
+    <footer>
+        <!-- Footer content -->
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
